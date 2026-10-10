@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "name": "jieqi-biotech-map 种子数据",
+    "version": "1.0.0",
+    "note": "所有 url/url_title 均指向 requirements 中列出的权威机构科普页面或该机构的科普栏目首页。凡指向栏目首页者，说明该概念暂无已核验的精确页面，见 docs/04-科普链接来源说明.md。所有农谚为民间流传，证据等级记为『弱』并标注『待核验』。",
+    "allowed_domains": [
+      "kepuchina.cn",
+      "cloud.kepuchina.cn",
+      "cas.cn",
+      "cib.cas.cn",
+      "ciac.jl.cn",
+      "cma.gov.cn",
+      "cco.cma.cn",
+      "ihchina.cn",
+      "moa.gov.cn",
+      "caas.cn",
+      "cast.caas.cn",
+      "unesco.org",
+      "ich.unesco.org",
+      "kpzg.people.com.cn",
+      "kepu.gmw.cn",
+      "kepu.net.cn"
+    ]
+  },
+
+  "terms": [
+    {"id": "lichun", "name": "立春", "huangjing": 315, "date": "2月3-5日", "season": "春", "phenology": "东风解冻，蛰虫始振，鱼陟负冰", "climate": "气温回升，日照增多，仍多低温", "proverb": "立春一年端，种地早盘算", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "yushui", "name": "雨水", "huangjing": 330, "date": "2月18-20日", "season": "春", "phenology": "獭祭鱼，候雁北，草木萌动", "climate": "降水渐增，冷暖交替", "proverb": "雨水有雨庄稼好，大春小春一片宝", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "jingzhe", "name": "惊蛰", "huangjing": 345, "date": "3月5-7日", "season": "春", "phenology": "桃始华，仓庚鸣，鹰化为鸠", "climate": "气温快速回升，虫害开始活跃", "proverb": "过了惊蛰节，春耕不能歇", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "chunfen", "name": "春分", "huangjing": 0, "date": "3月20-22日", "season": "春", "phenology": "玄鸟至，雷乃发声，始电", "climate": "昼夜等长，越冬作物进入生长旺季", "proverb": "春分麦起身，一刻值千金", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "qingming", "name": "清明", "huangjing": 15, "date": "4月4-6日", "season": "春", "phenology": "桐始华，田鼠化为鴽，虹始见", "climate": "气清景明，雨量增多", "proverb": "清明前后，种瓜点豆", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "guyu", "name": "谷雨", "huangjing": 30, "date": "4月19-21日", "season": "春", "phenology": "萍始生，鸣鸠拂其羽，戴胜降于桑", "climate": "雨量充沛，适宜播种育苗", "proverb": "谷雨前后，栽瓜种豆", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "lixia", "name": "立夏", "huangjing": 45, "date": "5月5-7日", "season": "夏", "phenology": "蝼蝈鸣，蚯蚓出，王瓜生", "climate": "气温显著升高，作物进入旺盛生长期", "proverb": "立夏看夏", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "xiaoman", "name": "小满", "huangjing": 60, "date": "5月20-22日", "season": "夏", "phenology": "苦菜秀，靡草死，麦秋至", "climate": "降雨增多，麦类灌浆", "proverb": "小满不满，麦有一险", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "mangzhong", "name": "芒种", "huangjing": 75, "date": "6月5-7日", "season": "夏", "phenology": "螳螂生，鵙始鸣，反舌无声", "climate": "高温高湿，夏收夏种", "proverb": "芒种忙，麦上场", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "xiazhi", "name": "夏至", "huangjing": 90, "date": "6月21-22日", "season": "夏", "phenology": "鹿角解，蜩始鸣，半夏生", "climate": "白昼最长，进入炎热期", "proverb": "夏至不过不热", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "xiaoshu", "name": "小暑", "huangjing": 105, "date": "7月6-8日", "season": "夏", "phenology": "温风至，蟋蟀居宇，鹰始鸷", "climate": "出梅入伏，高温多雨", "proverb": "小暑不算热，大暑三伏天", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "dashu", "name": "大暑", "huangjing": 120, "date": "7月22-24日", "season": "夏", "phenology": "腐草为萤，土润溽暑，大雨时行", "climate": "一年中最热，雨热同期", "proverb": "大暑不暑，五谷不鼓", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "liqiu", "name": "立秋", "huangjing": 135, "date": "8月7-9日", "season": "秋", "phenology": "凉风至，白露降，寒蝉鸣", "climate": "暑气未消，昼夜温差增大", "proverb": "立秋十天遍地黄", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "chushu", "name": "处暑", "huangjing": 150, "date": "8月22-24日", "season": "秋", "phenology": "鹰乃祭鸟，天地始肃，禾乃登", "climate": "暑气渐退，秋收临近", "proverb": "处暑不出头，割谷喂老牛", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "bailu", "name": "白露", "huangjing": 165, "date": "9月7-9日", "season": "秋", "phenology": "鸿雁来，玄鸟归，群鸟养羞", "climate": "昼夜温差大，露凝为白", "proverb": "白露白迷迷，秋分稻秀齐", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "qiufen", "name": "秋分", "huangjing": 180, "date": "9月22-24日", "season": "秋", "phenology": "雷始收声，蛰虫坯户，水始涸", "climate": "昼夜等长，秋收秋种关键期", "proverb": "秋分不露头，割了喂老牛", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "hanlu", "name": "寒露", "huangjing": 195, "date": "10月8-9日", "season": "秋", "phenology": "鸿雁来宾，雀入大水为蛤，菊有黄华", "climate": "气温下降明显，露水寒凉", "proverb": "寒露不算冷，霜降变了天", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "shuangjiang", "name": "霜降", "huangjing": 210, "date": "10月23-24日", "season": "秋", "phenology": "豺乃祭兽，草木黄落，蛰虫咸俯", "climate": "初霜出现，作物需防冻", "proverb": "霜降见霜，米谷满仓", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "lidong", "name": "立冬", "huangjing": 225, "date": "11月7-8日", "season": "冬", "phenology": "水始冰，地始冻，雉入大水为蜃", "climate": "气温下降，进入冬季", "proverb": "立冬晴，一冬凌", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "xiaoxue", "name": "小雪", "huangjing": 240, "date": "11月22-23日", "season": "冬", "phenology": "虹藏不见，天气上升地气下降，闭塞成冬", "climate": "开始降雪，农事转入越冬管理", "proverb": "小雪雪满天，来年必丰年", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "daxue", "name": "大雪", "huangjing": 255, "date": "12月6-8日", "season": "冬", "phenology": "鹖鴠不鸣，虎始交，荔挺出", "climate": "降雪增多，气温继续走低", "proverb": "大雪兆丰年", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"},
+    {"id": "dongzhi", "name": "冬至", "huangjing": 270, "date": "12月21-23日", "season": "冬", "phenology": "蚯蚓结，麋角解，水泉动", "climate": "白昼最短，数九寒天开始", "proverb": "冬至不冷，夏至不热", "url": "https://www.ihchina.cn/news_1_details/10160.html", "url_title": "中国非物质文化遗产网：二十四节气专题"},
+    {"id": "xiaohan", "name": "小寒", "huangjing": 285, "date": "1月5-7日", "season": "冬", "phenology": "雁北乡，鹊始巢，雉始雊", "climate": "进入严寒，注意防冻", "proverb": "小寒大寒，冷成一团", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "dahan", "name": "大寒", "huangjing": 300, "date": "1月20-21日", "season": "冬", "phenology": "鸡始乳，征鸟厉疾，水泽腹坚", "climate": "一年中最冷，寒潮频繁", "proverb": "大寒到顶点，日后天渐暖", "url": "https://ich.unesco.org/en/RL/24-solar-terms", "url_title": "UNESCO：二十四节气人类非物质文化遗产"}
+  ],
+
+  "techs": [
+    {"id": "gene_editing", "name": "基因编辑", "category": "育种技术", "description": "利用CRISPR/Cas9等工具对目标基因进行定点敲除、替换或修饰，实现性状精准改良。", "scenarios": "抗病抗逆育种、品质改良、去毒化", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：基因编辑技术"},
+    {"id": "mas_breeding", "name": "分子标记辅助育种", "category": "育种技术", "description": "借助与目标性状连锁的DNA标记，在苗期即可筛选携带优良基因的单株，加快选择进程。", "scenarios": "抗病性、品质、生育期定向选择", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：分子标记辅助育种"},
+    {"id": "transgenic", "name": "转基因", "category": "育种技术", "description": "将外源目的基因导入受体生物，使其获得新的性状，如抗虫、抗除草剂。", "scenarios": "抗虫棉、抗虫玉米、抗除草剂大豆", "url": "https://www.moa.gov.cn:10443/ztzl/zjyqwgz/kpxc/202502/t20250225_6470483.htm", "url_title": "农业农村部：转Bt基因抗虫农作物科普"},
+    {"id": "microbial_fertilizer", "name": "微生物肥料", "category": "土壤与营养", "description": "利用有益微生物的活动改善土壤结构、固氮解磷解钾，提高养分利用效率。", "scenarios": "连作障碍改良、减肥增效、土壤修复", "url": "https://cloud.kepuchina.cn/newSearch/imgText?id=7502557229370011648", "url_title": "科普中国：生物菌肥如何让土地更健康"},
+    {"id": "biopesticide", "name": "生物农药", "category": "植保技术", "description": "以微生物、植物源或天敌等生物活性物质防治有害生物，降低化学农药依赖。", "scenarios": "虫害绿色防控、Bt制剂施用、天敌释放", "url": "https://www.moa.gov.cn:10443/ztzl/zjyqwgz/kpxc/202502/t20250225_6470483.htm", "url_title": "农业农村部：转Bt基因抗虫农作物科普"},
+    {"id": "tissue_culture", "name": "组织培养", "category": "繁殖技术", "description": "在无菌条件下利用植物细胞的全能性快速繁殖优良个体，实现脱毒与规模化育苗。", "scenarios": "脱毒种苗、珍稀品种快繁、工厂化育苗", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：植物组织培养"},
+    {"id": "fermentation", "name": "发酵工程", "category": "生物制造", "description": "利用微生物或酶的代谢活动规模化生产目标产物，如氨基酸、酶制剂、有机酸。", "scenarios": "饲料添加剂、农用酶制剂、有机肥发酵", "url": "https://www.kepuchina.cn/article/articleinfo?business_type=100&classify=0&ar_id=12635", "url_title": "科普中国：微生物与发酵"},
+    {"id": "synthetic_biology", "name": "合成生物学", "category": "前沿技术", "description": "对生物元件、线路与系统进行设计与重构，赋予生物体新的功能。", "scenarios": "人工固氮、新型生物农药、生物基材料", "url": "https://cloud.kepuchina.cn/newSearch/imgText?id=7502557229370011648", "url_title": "科普中国：合成生物学"},
+    {"id": "genomic_selection", "name": "基因组选择", "category": "育种技术", "description": "利用全基因组标记信息预测个体育种值，加快世代选择与遗传增益。", "scenarios": "畜禽育种、玉米水稻产量性状改良", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：基因组选择与全基因组育种"},
+    {"id": "rnai", "name": "RNA干扰", "category": "育种技术", "description": "通过小RNA特异沉默靶基因表达，实现抗病毒或品质改良。", "scenarios": "抗病毒育种、降低有害成分、抗虫", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：RNA干扰技术"},
+    {"id": "embryo_transfer", "name": "胚胎移植", "category": "动物繁殖", "description": "将优良母畜的胚胎移植到受体母畜体内，快速扩繁优良种畜。", "scenarios": "家畜良种扩繁、濒危动物保种", "url": "https://www.caas.cn", "url_title": "中国农业科学院：畜牧科技科普"},
+    {"id": "facility_agriculture", "name": "设施农业环境调控", "category": "环境调控", "description": "通过温室、遮阳、补光、通风、水肥一体化等手段调控作物生长微环境。", "scenarios": "反季节生产、精准水肥、逆境规避", "url": "https://www.cco.cma.cn", "url_title": "中国气象局：设施栽培小气候调控"}
+  ],
+
+  "organisms": [
+    {"id": "winter_wheat", "name": "冬小麦", "type": "作物", "url": "https://cast.caas.cn", "url_title": "中国农科院：冬性、半冬性、春性小麦区分"},
+    {"id": "rice", "name": "水稻", "type": "作物", "url": "https://www.moa.gov.cn", "url_title": "农业农村部：水稻的昨天、今天和明天"},
+    {"id": "maize", "name": "玉米", "type": "作物", "url": "https://www.caas.cn", "url_title": "中国农业科学院：玉米科技科普"},
+    {"id": "soybean", "name": "大豆", "type": "作物", "url": "https://www.caas.cn", "url_title": "中国农业科学院：大豆科技科普"},
+    {"id": "cotton", "name": "棉花", "type": "作物", "url": "https://www.moa.gov.cn", "url_title": "农业农村部：棉花产业科普"},
+    {"id": "rapeseed", "name": "油菜", "type": "作物", "url": "https://www.caas.cn", "url_title": "中国农业科学院：油菜科技科普"},
+    {"id": "tomato", "name": "番茄", "type": "作物", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：蔬菜育种与栽培"},
+    {"id": "potato", "name": "马铃薯", "type": "作物", "url": "https://www.caas.cn", "url_title": "中国农业科学院：马铃薯科技科普"},
+    {"id": "pig", "name": "家猪", "type": "畜禽", "url": "https://www.caas.cn", "url_title": "中国农业科学院：生猪育种科技科普"},
+    {"id": "shrimp", "name": "对虾", "type": "水产", "url": "https://www.caas.cn", "url_title": "中国农业科学院：水产养殖科技科普"}
+  ],
+
+  "genes": [
+    {"id": "vrn1", "name": "VRN1", "function": "控制小麦春化需求的关键基因，影响开花时间与冬春性分化", "organism": "冬小麦", "url": "https://www.cib.cas.cn/xwdt/kjqy/202408/t20240807_7247349.html", "url_title": "中科院成都生物所：控制小麦开花时间的VRN-D4基因"},
+    {"id": "vrn_d4", "name": "VRN-D4", "function": "小麦春化相关基因，其变异影响冬性/半冬性品种的开花时间", "organism": "冬小麦", "url": "https://www.cib.cas.cn/xwdt/kjqy/202408/t20240807_7247349.html", "url_title": "中科院成都生物所：控制小麦开花时间的VRN-D4基因"},
+    {"id": "bt", "name": "Bt基因", "function": "来源于苏云金芽孢杆菌，编码杀虫晶体蛋白，使作物获得抗虫性", "organism": "棉花 / 玉米", "url": "https://www.moa.gov.cn:10443/ztzl/zjyqwgz/kpxc/202502/t20250225_6470483.htm", "url_title": "农业农村部：转Bt基因抗虫农作物科普"},
+    {"id": "drought_tolerance", "name": "耐旱相关基因（DREB类）", "function": "参与干旱胁迫响应，调控下游抗逆基因表达，提高保水与渗透调节能力", "organism": "玉米 / 小麦", "url": "https://www.kepuchina.cn", "url_title": "科普中国：作物抗逆育种"},
+    {"id": "disease_resistance", "name": "抗病相关基因（NBS-LRR类）", "function": "编码抗病受体蛋白，识别病原并启动防御反应", "organism": "水稻 / 番茄", "url": "https://www.kepuchina.cn", "url_title": "科普中国：植物抗病育种"}
+  ],
+
+  "environments": [
+    {"id": "temperature", "name": "温度", "unit": "℃", "effect": "决定生育进程与春化/休眠，极端高温或低温造成减产", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "light", "name": "光照", "unit": "h / μmol·m⁻²·s⁻¹", "effect": "影响光合作用与光周期反应，决定开花与产量形成", "url": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "url_title": "科普中国：植物与光照"},
+    {"id": "precipitation", "name": "降水", "unit": "mm", "effect": "影响土壤水分与病害发生，旱涝均不利", "url": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "url_title": "中国气象局：二十四节气系列科普"},
+    {"id": "accumulated_temp", "name": "积温", "unit": "℃·d", "effect": "制约作物生育期与熟制布局，是品种区划的重要指标", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：农业气象科普"},
+    {"id": "soil_ph", "name": "土壤pH", "unit": "无量纲", "effect": "影响养分有效性与微生物群落，决定适宜作物种类", "url": "https://www.caas.cn", "url_title": "中国农业科学院：土壤与施肥科普"}
+  ],
+
+  "regions": [
+    {"id": "north_china", "name": "华北", "climate_zone": "温带半湿润季风气候", "crops": "冬小麦、玉米、棉花、大豆", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：区域农业气候"},
+    {"id": "south_china", "name": "华南", "climate_zone": "亚热带—热带季风气候", "crops": "水稻（双季）、甘蔗、蔬菜、对虾", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：区域农业气候"},
+    {"id": "northeast", "name": "东北", "climate_zone": "温带湿润—半湿润气候", "crops": "玉米、大豆、水稻（单季）、马铃薯", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：区域农业气候"},
+    {"id": "southwest", "name": "西南", "climate_zone": "亚热带高原季风气候", "crops": "水稻、油菜、玉米、马铃薯", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：区域农业气候"},
+    {"id": "northwest", "name": "西北", "climate_zone": "温带大陆性干旱—半干旱气候", "crops": "小麦、玉米（灌溉）、棉花、马铃薯", "url": "https://www.cma.gov.cn", "url_title": "中国气象局：区域农业气候"}
+  ],
+
+  "relations": [
+    {"source_id": "qiufen", "target_id": "winter_wheat", "type": "指导", "description": "秋分前后是华北冬小麦适宜播种期，需在越冬前形成壮苗，播种过早易旺长、过晚分蘖不足。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『秋分不露头，割了喂老牛』及农技推广通识", "region": "华北", "season": "秋", "confidence": 0.6},
+    {"source_id": "winter_wheat", "target_id": "vrn1", "type": "解释", "description": "冬小麦需经历一定低温才能由营养生长转向生殖生长，VRN1 等春化基因是这一过程的分子开关。", "nature": "现代科学机制", "evidence_level": "强", "source_type": "论文", "source_ref": "中科院成都生物所科普：控制小麦开花时间的VRN-D4基因", "region": "全国", "season": "冬", "confidence": 0.85},
+    {"source_id": "vrn1", "target_id": "mas_breeding", "type": "突破", "description": "利用与春化/开花期连锁的分子标记，可在苗期预测冬春性，缩短小麦适应性育种周期。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "分子标记辅助育种通识（示例，待核验具体品种）", "region": "全国", "season": "冬", "confidence": 0.6},
+    {"source_id": "jingzhe", "target_id": "biopesticide", "type": "指导", "description": "惊蛰后气温回升、害虫开始活动，是释放天敌、施用Bt等生物农药的关键窗口期。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『过了惊蛰节，春耕不能歇』＋绿色防控通识", "region": "华北", "season": "春", "confidence": 0.6},
+    {"source_id": "biopesticide", "target_id": "bt", "type": "解释", "description": "Bt 制剂与转Bt基因抗虫作物均利用苏云金芽孢杆菌杀虫晶体蛋白对靶标害虫的专一毒性。", "nature": "现代科学机制", "evidence_level": "强", "source_type": "标准", "source_ref": "农业农村部：转Bt基因抗虫农作物科普", "region": "全国", "season": "春", "confidence": 0.85},
+    {"source_id": "mangzhong", "target_id": "rice", "type": "案例", "description": "芒种前后长江中下游进入梅雨，早稻抽穗、晚稻栽插，需防范高温高湿引发的稻瘟病。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『芒种忙，麦上场』＋农业气象通识", "region": "华南", "season": "夏", "confidence": 0.6},
+    {"source_id": "rice", "target_id": "disease_resistance", "type": "突破", "description": "利用NBS-LRR类抗病基因进行分子育种，可提升水稻对稻瘟病等病害的抗性。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "论文", "source_ref": "植物抗病育种通识（示例，待核验具体基因）", "region": "华南", "season": "夏", "confidence": 0.6},
+    {"source_id": "dashu", "target_id": "facility_agriculture", "type": "适应", "description": "大暑高温强光，设施农业通过遮阳网、湿帘降温与通风调控棚内小气候，减轻热害。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "中国气象局：设施栽培小气候调控", "region": "华北", "season": "夏", "confidence": 0.65},
+    {"source_id": "temperature", "target_id": "facility_agriculture", "type": "适应", "description": "设施环境通过加温、保温被与补光，可缓冲外界温度剧烈波动对作物的影响。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "设施农业环境调控通识", "region": "东北", "season": "冬", "confidence": 0.65},
+    {"source_id": "shuangjiang", "target_id": "tomato", "type": "适应", "description": "霜降前后露地番茄易受低温霜冻危害，需转入设施栽培或提前采收。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『霜降见霜，米谷满仓』＋设施栽培通识", "region": "华北", "season": "秋", "confidence": 0.6},
+    {"source_id": "xiaoxue", "target_id": "winter_wheat", "type": "指导", "description": "小雪前后冬小麦进入越冬期，需适时浇越冬水、镇压保墒，防止冻害。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『小雪雪满天，来年必丰年』＋农技通识", "region": "华北", "season": "冬", "confidence": 0.6},
+    {"source_id": "dongzhi", "target_id": "pig", "type": "指导", "description": "冬至后气温进一步下降，畜禽舍需加强保温与通风管理，降低呼吸道疾病风险。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "畜牧养殖环境管理通识", "region": "东北", "season": "冬", "confidence": 0.6},
+    {"source_id": "accumulated_temp", "target_id": "maize", "type": "指导", "description": "积温决定玉米品种能否安全成熟，春播需根据区域积温选择适宜熟期品种。", "nature": "现代科学机制", "evidence_level": "强", "source_type": "标准", "source_ref": "农业气象与品种区划通识", "region": "东北", "season": "春", "confidence": 0.8},
+    {"source_id": "maize", "target_id": "genomic_selection", "type": "突破", "description": "基因组选择利用全基因组标记预测育种值，可加快玉米产量与抗逆性状的改良。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "论文", "source_ref": "基因组选择通识（示例，待核验具体研究）", "region": "东北", "season": "夏", "confidence": 0.6},
+    {"source_id": "guyu", "target_id": "potato", "type": "指导", "description": "谷雨前后雨量充沛、地温回升，是马铃薯切块播种与出苗管理的关键时期。", "nature": "传统经验", "evidence_level": "弱", "source_type": "农谚", "source_ref": "农谚『谷雨前后，栽瓜种豆』（示例，待核验）", "region": "西南", "season": "春", "confidence": 0.5},
+    {"source_id": "potato", "target_id": "tissue_culture", "type": "突破", "description": "利用茎尖脱毒与组织培养生产脱毒种薯，可显著减轻病毒病导致的退化。", "nature": "现代科学机制", "evidence_level": "强", "source_type": "论文", "source_ref": "植物组织培养通识（脱毒种薯）", "region": "西南", "season": "春", "confidence": 0.8},
+    {"source_id": "soil_ph", "target_id": "microbial_fertilizer", "type": "适应", "description": "土壤pH偏酸或偏碱影响微生物活性，选用耐性菌株的生物肥料可改善根际环境。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "微生物肥料通识（示例，待核验具体菌株）", "region": "华南", "season": "夏", "confidence": 0.6},
+    {"source_id": "microbial_fertilizer", "target_id": "tomato", "type": "案例", "description": "设施番茄连作常出现土壤退化，施用微生物肥料有助于缓解连作障碍。", "nature": "现代科学机制", "evidence_level": "待验证", "source_type": "示例", "source_ref": "示例案例（待核验）", "region": "华北", "season": "冬", "confidence": 0.35},
+    {"source_id": "qingming", "target_id": "cotton", "type": "指导", "description": "清明至谷雨是黄河流域棉花适播期，需抓住冷尾暖头、适墒播种。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『清明前后，种瓜点豆』＋棉花栽培通识", "region": "华北", "season": "春", "confidence": 0.6},
+    {"source_id": "cotton", "target_id": "bt", "type": "案例", "description": "转Bt基因抗虫棉在国内大面积应用，有效控制棉铃虫危害。", "nature": "现代科学机制", "evidence_level": "强", "source_type": "标准", "source_ref": "农业农村部：转Bt基因抗虫农作物科普", "region": "华北", "season": "夏", "confidence": 0.85},
+    {"source_id": "drought_tolerance", "target_id": "northwest", "type": "适应", "description": "西北干旱区可选用耐旱相关基因改良的品种，配合节水灌溉提升水分利用效率。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "论文", "source_ref": "作物抗逆育种通识（示例，待核验具体品种）", "region": "西北", "season": "夏", "confidence": 0.6},
+    {"source_id": "precipitation", "target_id": "rice", "type": "解释", "description": "降水与灌溉水情直接影响水稻分蘖与灌浆，伏旱会造成空秕率上升。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "专家意见", "source_ref": "农业气象通识", "region": "华南", "season": "夏", "confidence": 0.65},
+    {"source_id": "shrimp", "target_id": "fermentation", "type": "案例", "description": "对虾养殖中利用发酵工程生产的益生菌制剂调控水质、抑制弧菌，降低发病风险。", "nature": "现代科学机制", "evidence_level": "待验证", "source_type": "示例", "source_ref": "示例案例（待核验）", "region": "华南", "season": "夏", "confidence": 0.35},
+    {"source_id": "synthetic_biology", "target_id": "microbial_fertilizer", "type": "突破", "description": "合成生物学改造固氮或解磷微生物，为新型生物肥料提供技术路径。", "nature": "现代科学机制", "evidence_level": "弱", "source_type": "专家意见", "source_ref": "合成生物学通识（示例，待核验）", "region": "全国", "season": "春", "confidence": 0.5},
+    {"source_id": "chunfen", "target_id": "rapeseed", "type": "指导", "description": "春分前后油菜进入抽薹开花期，是菌核病防控与硼肥补充的关键时期。", "nature": "传统经验", "evidence_level": "中", "source_type": "农谚", "source_ref": "农谚『春分麦起身，一刻值千金』＋油菜栽培通识", "region": "西南", "season": "春", "confidence": 0.6},
+    {"source_id": "rapeseed", "target_id": "mas_breeding", "type": "突破", "description": "分子标记辅助选择可加速油菜抗菌核病与高油酸品质的聚合育种。", "nature": "现代科学机制", "evidence_level": "中", "source_type": "论文", "source_ref": "分子标记辅助育种通识（示例，待核验具体品种）", "region": "西南", "season": "春", "confidence": 0.6}
+  ],
+
+  "evidences": [
+    {"id": "ev_unesco_24terms", "title": "UNESCO：二十四节气——人类非物质文化遗产代表作名录", "source_type": "标准", "citation": "https://ich.unesco.org/en/RL/24-solar-terms", "level": "强", "note": "用于二十四节气总论与非遗属性。"},
+    {"id": "ev_ihchina_24terms", "title": "中国非物质文化遗产网：二十四节气专题", "source_type": "标准", "citation": "https://www.ihchina.cn/news_1_details/10160.html", "level": "强", "note": "用于节气文化内涵说明。"},
+    {"id": "ev_cma_24terms", "title": "中国气象局：二十四节气系列科普", "source_type": "专家意见", "citation": "https://www.cma.gov.cn/2011xzt/2019zt/20191023/2019102303/202111/t20211103_4137239.html", "level": "强", "note": "用于节气气候特征说明。"},
+    {"id": "ev_kepu_crispr", "title": "科普中国：基因编辑技术", "source_type": "标准", "citation": "https://cloud.kepuchina.cn/h5/detail?id=7354333045101555712", "level": "强", "note": "用于基因编辑、分子标记、组织培养、RNAi等技术的科普说明。"},
+    {"id": "ev_moa_bt", "title": "农业农村部：转Bt基因抗虫农作物科普", "source_type": "标准", "citation": "https://www.moa.gov.cn:10443/ztzl/zjyqwgz/kpxc/202502/t20250225_6470483.htm", "level": "强", "note": "用于Bt基因与生物农药、抗虫棉案例。"},
+    {"id": "ev_cib_vrn", "title": "中科院成都生物所：控制小麦开花时间的VRN-D4基因", "source_type": "论文", "citation": "https://www.cib.cas.cn/xwdt/kjqy/202408/t20240807_7247349.html", "level": "强", "note": "用于春化作用与VRN基因的分子机制说明。"},
+    {"id": "ev_kepu_microbe", "title": "科普中国：生物菌肥如何让土地更健康", "source_type": "标准", "citation": "https://cloud.kepuchina.cn/newSearch/imgText?id=7502557229370011648", "level": "强", "note": "用于微生物肥料与合成生物学科普。"},
+    {"id": "ev_proverb_generic", "title": "民间流传农谚（示例，待核验）", "source_type": "农谚", "citation": "无单一权威出处，属民间口传内容", "level": "弱", "note": "项目内所有农谚均按『弱』等级处理，不作为科学依据，仅作传统经验参考。"},
+    {"id": "ev_example_placeholder", "title": "示例/待核验条目", "source_type": "示例", "citation": "由项目组构造，仅用于演示功能，不代表真实研究结论", "level": "待验证", "note": "凡标注此来源的内容不得用于生产决策。"}
+  ]
+}

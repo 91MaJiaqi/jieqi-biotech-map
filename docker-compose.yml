@@ -1,0 +1,56 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: jieqi-backend
+    environment:
+      # 默认 SQLite（一键运行）；如需 PostgreSQL，改为下一行并取消 postgres 服务注释
+      DATABASE_URL: sqlite:////data/jieqi.db
+      # DATABASE_URL: postgresql+psycopg://jieqi:jieqi@postgres:5432/jieqi
+      CORS_ORIGINS: http://localhost,http://127.0.0.1
+    volumes:
+      - jieqi-data:/data
+      - ./data:/app/data:ro
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://127.0.0.1:8000/api/health')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: jieqi-frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:80"
+
+  # 预留：Neo4j 图数据库适配层（MVP 使用 SQLite + JSON 关系表，暂不启用）
+  # neo4j:
+  #   image: neo4j:5
+  #   environment:
+  #     NEO4J_AUTH: neo4j/jieqi-please-change
+  #   ports:
+  #     - "7474:7474"
+  #     - "7687:7687"
+
+  # 预留：PostgreSQL（设置 DATABASE_URL 后启用）
+  # postgres:
+  #   image: postgres:16
+  #   environment:
+  #     POSTGRES_USER: jieqi
+  #     POSTGRES_PASSWORD: jieqi
+  #     POSTGRES_DB: jieqi
+  #   volumes:
+  #     - jieqi-pg:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+volumes:
+  jieqi-data:
+  # jieqi-pg:

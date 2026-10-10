@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: #f7f8f5;
+  color: #1f2937;
+}
+
+.season-chun { --season: #3f9c5a; }
+.season-xia { --season: #d97706; }
+.season-qiu { --season: #b45309; }
+.season-dong { --season: #2563eb; }
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-gray-200 bg-white p-5 shadow-sm;
+  }
+  .btn {
+    @apply rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm transition hover:bg-gray-50 disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply rounded-lg bg-emerald-700 px-3 py-1.5 text-sm text-white transition hover:bg-emerald-800;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+  }
+  .input {
+    @apply w-full rounded-lg border border-gray-300 px-3 py-2 text-sm outline-none focus:border-emerald-600;
+  }
+}
+
+.term-node:hover .term-circle {
+  fill-opacity: 1;
+  stroke-width: 3;
+}
+.term-node {
+  cursor: pointer;
+}
