@@ -71,7 +71,7 @@ export default function RegionPage() {
                 <span className="chip bg-gray-100 text-gray-600">{detail.data.item.climate_zone}</span>
               </div>
               <p className="mt-2 text-sm text-gray-600">典型作物：{detail.data.item.crops}</p>
-              <div className="mt-3 max-w-2xl">
+              <div className="mt-3 max-w-4xl">
                 <ScienceLinkBlock link={detail.data.item} />
               </div>
               <Link to={`/advice?region=${detail.data.item.id}`} className="btn-primary mt-3 inline-block">

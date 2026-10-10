@@ -28,7 +28,7 @@ export default function SeasonDisk({ terms, selectedId, size = 520 }: Props) {
   return (
     <svg
       viewBox={`0 0 ${size} ${size}`}
-      className="mx-auto w-full max-w-[560px] select-none"
+      className="mx-auto h-auto w-full max-w-[560px] select-none xl:max-w-[760px]"
       role="img"
       aria-label="二十四节气圆盘"
       data-testid="season-disk"

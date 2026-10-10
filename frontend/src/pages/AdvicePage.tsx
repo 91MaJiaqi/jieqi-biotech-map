@@ -150,7 +150,7 @@ export default function AdvicePage() {
             {advice.data.technologies.length === 0 ? (
               <p className="text-sm text-gray-400">暂无匹配技术。</p>
             ) : (
-              <div className="grid gap-3 sm:grid-cols-2">
+              <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
                 {advice.data.technologies.map((t) => (
                   <div key={t.id} className="rounded-lg border border-gray-200 p-3">
                     <div className="text-sm font-medium text-violet-700">{t.name}</div>

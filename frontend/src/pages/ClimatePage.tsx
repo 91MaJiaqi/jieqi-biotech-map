@@ -99,7 +99,7 @@ export default function ClimatePage() {
 
           <section className="card">
             <h2 className="mb-3 text-base font-semibold text-gray-800">二十四节气物候偏移（示意）</h2>
-            <ReactECharts option={chartOption} style={{ height: 720 }} notMerge />
+            <ReactECharts option={chartOption} style={{ height: 'clamp(420px, 62vh, 760px)' }} notMerge />
           </section>
 
           <section className="card">
@@ -136,7 +136,7 @@ export default function ClimatePage() {
 
           <section className="card">
             <h2 className="mb-3 text-base font-semibold text-gray-800">应对生物技术方向</h2>
-            <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
               {climate.data.technologies.map((t) => (
                 <div key={t.id} className="rounded-lg border border-gray-200 p-3">
                   <div className="text-sm font-medium text-violet-700">

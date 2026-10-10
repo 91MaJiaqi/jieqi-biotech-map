@@ -13,7 +13,7 @@ export function Breadcrumb({ to = '/', label = '首页', current }: { to?: strin
 
 export function InfoGrid({ rows }: { rows: { label: string; value: ReactNode }[] }) {
   return (
-    <dl className="grid gap-3 sm:grid-cols-2">
+    <dl className="grid gap-3 [grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))]">
       {rows.map((r) => (
         <div key={r.label} className="rounded-lg bg-gray-50 p-3">
           <dt className="text-xs text-gray-400">{r.label}</dt>

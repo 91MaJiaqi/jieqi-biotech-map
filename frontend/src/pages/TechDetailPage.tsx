@@ -19,9 +19,9 @@ export default function TechDetailPage() {
             <span className="chip bg-violet-100 text-violet-700">{data.item.category}</span>
           </header>
 
-          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-gray-600">{data.item.description}</p>
+          <p className="mt-3 max-w-4xl text-sm leading-relaxed text-gray-600">{data.item.description}</p>
 
-          <div className="mt-4 max-w-3xl">
+          <div className="mt-4">
             <InfoGrid
               rows={[
                 { label: '技术分类', value: data.item.category },
@@ -30,7 +30,7 @@ export default function TechDetailPage() {
             />
           </div>
 
-          <div className="mt-4 max-w-2xl">
+          <div className="mt-4 max-w-4xl">
             <ScienceLinkBlock link={data.item} />
           </div>
 

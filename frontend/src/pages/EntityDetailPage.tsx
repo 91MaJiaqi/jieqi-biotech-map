@@ -74,11 +74,11 @@ export default function EntityDetailPage({ kind }: { kind: Kind }) {
               <span className={`chip ${view.badgeClass}`}>{view.badge}</span>
             </header>
 
-            <div className="mt-4 max-w-3xl">
+            <div className="mt-4">
               <InfoGrid rows={view.rows} />
             </div>
 
-            <div className="mt-4 max-w-2xl">
+            <div className="mt-4 max-w-4xl">
               <ScienceLinkBlock link={view.item} />
             </div>
 

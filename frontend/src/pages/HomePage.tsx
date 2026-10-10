@@ -23,12 +23,12 @@ export default function HomePage() {
           <strong className="text-gray-800">现代科学机制</strong>。
           每个概念卡片与详情页都提供权威科普链接，可点击跳转验证。
         </p>
-        <div className="mt-5 max-w-3xl">
+        <div className="mt-5 max-w-4xl">
           <SearchBox />
         </div>
       </section>
 
-      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_340px] xl:grid-cols-[minmax(0,1fr)_400px]">
         <div className="card">
           <h2 className="mb-2 text-lg font-semibold text-gray-800">二十四节气圆盘</h2>
           <p className="mb-3 text-xs text-gray-400">按黄经自「立春 315°」起顺时针排列，点击任一节气查看详情。</p>

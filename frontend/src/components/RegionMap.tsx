@@ -18,9 +18,9 @@ function pinIcon(color: string, label: string) {
 
 const COLORS = ['#059669', '#d97706', '#4b5563', '#7c3aed', '#dc2626']
 
-export default function RegionMap({ regions, height = 520 }: { regions: Region[]; height?: number }) {
+export default function RegionMap({ regions }: { regions: Region[] }) {
   return (
-    <div className="overflow-hidden rounded-xl border border-gray-200" style={{ height }} data-testid="region-map">
+    <div className="overflow-hidden rounded-xl border border-gray-200" style={{ height: 'clamp(360px, 56vh, 680px)' }} data-testid="region-map">
       <MapContainer
         center={[35.5, 108]}
         zoom={4}

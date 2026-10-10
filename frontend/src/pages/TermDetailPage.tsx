@@ -45,7 +45,7 @@ export default function TermDetailPage() {
             </div>
           )}
 
-          <div className="mt-4 max-w-2xl">
+          <div className="mt-4 max-w-4xl">
             <ScienceLinkBlock link={data.item} />
           </div>
 

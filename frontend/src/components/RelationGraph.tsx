@@ -13,7 +13,7 @@ export const NODE_PATH: Record<NodeKind, (id: string) => string> = {
   region: () => `/region`,
 }
 
-export default function RelationGraph({ data, height = 620 }: { data: GraphData; height?: number }) {
+export default function RelationGraph({ data }: { data: GraphData }) {
   const navigate = useNavigate()
 
   const option = useMemo(() => {
@@ -90,5 +90,5 @@ export default function RelationGraph({ data, height = 620 }: { data: GraphData;
     [navigate],
   )
 
-  return <ReactECharts option={option} style={{ height }} onEvents={onEvents} notMerge />
+  return <ReactECharts option={option} style={{ height: 'clamp(480px, 72vh, 820px)' }} onEvents={onEvents} notMerge />
 }
